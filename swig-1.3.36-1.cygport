@@ -1,0 +1,13 @@
+DESCRIPTION="Library wrapper generator"
+HOMEPAGE="http://www.swig.org/"
+SRC_URI="mirror://sourceforge/swig/${P}.tar.gz"
+
+DIFF_EXCLUDES="swigwarn.swg Makefile.in"
+
+src_compile() {
+	cd ${S}
+	./autogen.sh || error "autogen.sh failed"
+	cd ${B}
+	cygconf
+	cygmake
+}
