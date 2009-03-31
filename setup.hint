@@ -1,5 +1,5 @@
 category: Devel
-requires: cygwin
+requires: cygwin libgcc1 libstdc++6
 sdesc: "C/C++ wrapper generator"
 ldesc: "SWIG reads annotated C/C++ header files and creates wrapper code 
 (glue code) in order to make the corresponding C/C++ libraries available 
