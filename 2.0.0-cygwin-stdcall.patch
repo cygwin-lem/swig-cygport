@@ -1,0 +1,11 @@
+--- origsrc/swig-2.0.0/Lib/swiglabels.swg	2008-06-22 17:12:43.000000000 -0500
++++ src/swig-2.0.0/Lib/swiglabels.swg	2010-06-21 23:01:28.586455300 -0500
+@@ -89,7 +89,7 @@
+ 
+ /* calling conventions for Windows */
+ #ifndef SWIGSTDCALL
+-# if defined(_WIN32) || defined(__WIN32__) || defined(__CYGWIN__)
++# if defined(_WIN32) || defined(__WIN32__)
+ #   define SWIGSTDCALL __stdcall
+ # else
+ #   define SWIGSTDCALL

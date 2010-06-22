@@ -6,20 +6,21 @@ the listed languages, or to extend C/C++ programs with a scripting
 language.
 
 Runtime requirements:
-  cygwin-1.7.0-60
-  libgcc1-4.3.2-2
-  libstdc++6-4.3.2-2
+  cygwin-1.7.5-1
+  libgcc1-4.3.4-3
+  libstdc++6-4.3.4-3
+  zlib0-1.2.3-10
 
 Build requirements:
-  autoconf2.5-2.63-10
-  automake1.10-1.10.2-10
-  binutils-2.19.51-1
-  cygport-0.9.9-1
+  autoconf2.5-2.65-1
+  automake1.10-1.10.3-1
+  binutils-2.20.51-2
+  cygport-0.9.85-1
   gawk-3.1.7-1
-  gcc4-core-4.3.2-2
-  gcc4-g++-4.3.2-2
+  gcc4-core-4.3.4-3
+  gcc4-g++-4.3.4-3
   make-3.81-2
-  sed-4.1.5-2
+  sed-4.2.1-1
 
 Canonical website:
   http://www.swig.org/
@@ -30,19 +31,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack swig-1.3.38-X-src.tar.bz2
+  unpack swig-2.0.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./swig-1.3.38-X.cygport all
+  cygport ./swig-2.0.0-X.cygport all
 
 This will create:
-  /usr/src/swig-1.3.38-X-src.tar.bz2
-  /usr/src/swig-1.3.38-X.tar.bz2
+  /usr/src/swig-2.0.0-X-src.tar.bz2
+  /usr/src/swig-2.0.0-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.0.0-1 -----
+Version bump.
 
 ----- version 1.3.38-1 -----
 Version bump.
