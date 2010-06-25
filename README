@@ -31,21 +31,21 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack swig-2.0.0-X-src.tar.bz2
+  unpack swig-1.3.40-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./swig-2.0.0-X.cygport all
+  cygport ./swig-1.3.40-X.cygport all
 
 This will create:
-  /usr/src/swig-2.0.0-X-src.tar.bz2
-  /usr/src/swig-2.0.0-X.tar.bz2
+  /usr/src/swig-1.3.40-X-src.tar.bz2
+  /usr/src/swig-1.3.40-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
 
------ version 2.0.0-1 -----
+----- version 1.3.40-1 -----
 Version bump.
 
 ----- version 1.3.38-1 -----
