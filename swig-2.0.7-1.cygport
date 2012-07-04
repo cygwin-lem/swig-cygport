@@ -3,7 +3,7 @@ HOMEPAGE="http://www.swig.org/"
 SRC_URI="mirror://sourceforge/swig/${P}.tar.gz"
 PATCH_URI="2.0.0-cygwin-stdcall.patch"
 
-DIFF_EXCLUDES="swigwarn.swg Makefile.in"
+DIFF_EXCLUDES="aclocal.m4 config configure swigwarn.swg Makefile.in"
 
 src_compile() {
 	cd ${S}

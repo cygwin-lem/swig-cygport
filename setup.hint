@@ -1,10 +1,7 @@
 category: Devel
-requires: libgcc1 libstdc++6 zlib0
+requires: libgcc1 libpcre1 libstdc++6 zlib0
 sdesc: "C/C++ wrapper generator"
 ldesc: "SWIG reads annotated C/C++ header files and creates wrapper code 
 (glue code) in order to make the corresponding C/C++ libraries available 
 to the listed languages, or to extend C/C++ programs with a scripting 
 language."
-prev: 1.3.38-1
-curr: 1.3.40-1
-test: 2.0.0-1
