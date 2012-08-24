@@ -7,14 +7,11 @@ language."
 HOMEPAGE="http://www.swig.org/"
 SRC_URI="mirror://sourceforge/swig/${P}.tar.gz"
 
+# for guile 2.0 support (latter is not compatible with 1.8):
+#	http://pkgs.fedoraproject.org/cgit/swig.git/plain/swig203-rh706140.patch
+#	http://pkgs.fedoraproject.org/cgit/swig.git/plain/swig204-rh752054.patch
 PATCH_URI="
 	2.0.0-cygwin-stdcall.patch
-	fedora/swig203-rh706140.patch
-	fedora/swig204-rh752054.patch
-	fedora/swig207-rh830660.patch
-	fedora/swig207-r13128.patch
-	fedora/swig207-setools.patch
-	fedora/swig-rh841245.patch
 "
 
 DIFF_EXCLUDES="aclocal.m4 config configure swigwarn.swg Makefile.in"
