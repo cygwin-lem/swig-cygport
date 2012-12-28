@@ -1,3 +1,6 @@
+NAME="swig"
+VERSION=2.0.9
+RELEASE=1
 CATEGORY="Devel"
 SUMMARY="C/C++ wrapper generator"
 DESCRIPTION="SWIG reads annotated C/C++ header files and creates wrapper code
