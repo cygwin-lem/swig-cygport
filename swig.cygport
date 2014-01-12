@@ -1,5 +1,5 @@
 NAME="swig"
-VERSION=2.0.9
+VERSION=2.0.11
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="C/C++ wrapper generator"
@@ -9,10 +9,6 @@ to the listed languages, or to extend C/C++ programs with a scripting
 language."
 HOMEPAGE="http://www.swig.org/"
 SRC_URI="mirror://sourceforge/swig/${P}.tar.gz"
-
-# for guile 2.0 support (latter is not compatible with 1.8):
-#	http://pkgs.fedoraproject.org/cgit/swig.git/plain/swig203-rh706140.patch
-#	http://pkgs.fedoraproject.org/cgit/swig.git/plain/swig204-rh752054.patch
 PATCH_URI="
 	2.0.0-cygwin-stdcall.patch
 "
