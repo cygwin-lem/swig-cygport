@@ -1,5 +1,5 @@
 NAME="swig"
-VERSION=2.0.11
+VERSION=2.0.12
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="C/C++ wrapper generator"
@@ -8,7 +8,7 @@ DESCRIPTION="SWIG reads annotated C/C++ header files and creates wrapper code
 to the listed languages, or to extend C/C++ programs with a scripting
 language."
 HOMEPAGE="http://www.swig.org/"
-SRC_URI="mirror://sourceforge/swig/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/swig/swig-${VERSION}.tar.gz"
 PATCH_URI="
 	2.0.0-cygwin-stdcall.patch
 "
