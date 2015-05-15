@@ -1,5 +1,5 @@
 NAME="swig"
-VERSION=2.0.12
+VERSION=3.0.5
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="C/C++ wrapper generator"
@@ -10,6 +10,7 @@ language."
 HOMEPAGE="http://www.swig.org/"
 SRC_URI="mirror://sourceforge/swig/swig-${VERSION}.tar.gz"
 PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/swig.git/plain/swig-3.0.5_fix-python-modern-buildin.patch
 	2.0.0-cygwin-stdcall.patch
 "
 
