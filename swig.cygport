@@ -1,5 +1,5 @@
 NAME="swig"
-VERSION=3.0.7
+VERSION=3.0.11
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="C/C++ wrapper generator"
@@ -10,13 +10,11 @@ language."
 HOMEPAGE="http://www.swig.org/"
 SRC_URI="mirror://sourceforge/swig/swig-${VERSION}.tar.gz"
 PATCH_URI="
-	http://pkgs.fedoraproject.org/cgit/swig.git/plain/swig307-Fix-Ruby-trackings-code-to-use-C-hash.patch
-	http://pkgs.fedoraproject.org/cgit/swig.git/plain/swig307-Ruby-trackings-patch-tidy-up.patch
-	http://pkgs.fedoraproject.org/cgit/swig.git/plain/swig307-Ruby-trackings-support-for-1.8.patch
 	2.0.0-cygwin-stdcall.patch
 "
 
 DIFF_EXCLUDES="aclocal.m4 config configure swigwarn.swg Makefile.in"
+REQUIRES_EXCLUDE_FROM="/usr/share/swig/${VERSION}/*/*.pl:/usr/share/swig/${VERSION}/*/*.rb"
 
 DEPEND="pkgconfig(libpcre)
 	pkgconfig(zlib)"
